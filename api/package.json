@@ -1,0 +1,24 @@
+{
+  "name": "recylingapi",
+  "version": "1.0.0",
+  "description": "a recyling app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koladeore/recyling-app.git"
+  },
+  "keywords": [
+    "reuse",
+    "reduce",
+    "recycle"
+  ],
+  "author": "\"koladeore@gmail.com\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koladeore/recyling-app/issues"
+  },
+  "homepage": "https://github.com/koladeore/recyling-app#readme"
+}
