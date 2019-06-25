@@ -4,7 +4,7 @@
   "description": "a recyling app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/koladeore/recyling-app/issues"
   },
-  "homepage": "https://github.com/koladeore/recyling-app#readme"
+  "homepage": "https://github.com/koladeore/recyling-app#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "nodemon": "^1.19.1"
+  }
 }
